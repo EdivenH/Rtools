@@ -45,7 +45,9 @@ function forecasts(state, action) {
   }
 }
 
-export const reduces = combineReducers({
+const reduces = combineReducers({
   lives,
   forecasts,
 });
+
+export default reduces;
